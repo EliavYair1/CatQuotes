@@ -1,0 +1,23 @@
+.wrapper {
+  width: 1250px;
+  border-radius: 8px;
+  padding: 19px;
+  background-color: rgb(209, 209, 209);
+}
+.quoteText {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 24px;
+}
+.quoteBtns {
+  background-color: orange;
+  border: none;
+  width: 300px;
+  height: 35px;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.quoteBtns:hover {
+  color: royalblue;
+}
