@@ -20,7 +20,7 @@ const Quote = () => {
   };
 
   const prevQuote = () => {
-    Counter === 0 ? setCounter(Quote.length - 1) : setCounter(0);
+    Counter === 0 ? setCounter(Quote.length - 1) : setCounter(--Counter);
   };
 
   return (
